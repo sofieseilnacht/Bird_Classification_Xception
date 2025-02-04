@@ -9,8 +9,14 @@ For more information about the dataset, visit the project website:
 
   http://www.vision.caltech.edu/visipedia
 
-If you use the dataset in a publication, please cite the dataset in
-the style described on the dataset website (see url above).
+citation:
+@techreport{WahCUB_200_2011,
+	Title = ,
+	Author = {Wah, C. and Branson, S. and Welinder, P. and Perona, P. and Belongie, S.},
+	Year = {2011}
+	Institution = {California Institute of Technology},
+	Number = {CNS-TR-2011-001}
+}
 ***
 
 # Table of Contents
@@ -24,15 +30,9 @@ the style described on the dataset website (see url above).
 
 # Directory Information
 
-- images/
-    The images organized in subdirectories based on species. See 
-    IMAGES AND CLASS LABELS section below for more info.
-- parts/
-    15 part locations per image. See PART LOCATIONS section below 
-    for more info.
-- attributes/
-    322 binary attribute labels from MTurk workers. See ATTRIBUTE LABELS 
-    section below for more info.
+- images: The images organized in subdirectories based on species. See IMAGES AND CLASS LABELS section below for more info.
+- parts: 15 part locations per image. See PART LOCATIONS section below for more info.
+- attributes: 322 binary attribute labels from MTurk workers. See ATTRIBUTE LABELS section below for more info.
 
 
 ***
